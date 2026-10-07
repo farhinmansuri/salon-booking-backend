@@ -19,6 +19,6 @@ app.use('/api/appointments', appointmentRoutes);
 app.use('/api/availability', salonAvailabilityRoutes);
 
 app.use(notFoundHandler);
-app.use(errorHandler); 
+app.use(errorHandler);
 
 module.exports = app;
